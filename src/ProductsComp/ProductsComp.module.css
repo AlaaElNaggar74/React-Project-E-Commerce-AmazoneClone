@@ -1,0 +1,55 @@
+.buttonss {
+margin: 20px 0;
+display: flex;
+}
+.buttonss button{
+  border: 0;
+  outline: 0;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fc9800;
+  color: aliceblue;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+}
+.buttonss button:hover{
+background-color: #030303;
+
+}
+.buttonss button:not(:last-child){
+margin-right: 10px;
+
+}
+.Products {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 10px;
+  
+}
+.Products .titl{
+margin-top: 20px;
+margin-bottom: 10px;
+}
+.Products .Des{
+margin-bottom: 10px;
+color: #6a6a6a;
+}
+.Products img{
+  width: 100%;
+  height: 220px;
+}
+.star i{
+  color: orange;
+}
+.star i:not(:last-child){
+  margin-right: 5px;
+}
+
+
+@media (max-width:400px){
+  .Products {
+  margin-bottom: 20px;
+  }
+}

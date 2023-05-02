@@ -1,0 +1,49 @@
+.OurProdSecto{
+  padding: 50px 0;
+}
+
+
+
+.headerTitle{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.firstSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(450px,1fr));
+  /* margin-bottom: 50px; */
+  gap:20px;
+margin-bottom: 20px;
+  
+}
+.secondSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  /* margin-bottom: 50px; */
+  gap:20px;
+  margin-bottom: 20px;
+
+}
+.thredSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+  /* margin-bottom: 50px; */
+  gap:20px;
+  margin-bottom: 20px;
+
+}
+
+@media (max-width:500px){
+  .firstSection{
+    display: block;
+        
+  }
+  .secondSection{
+    display: block;
+        
+  }
+  .thredSection{
+    display: block;
+        
+  }
+}

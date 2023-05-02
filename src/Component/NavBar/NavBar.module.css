@@ -1,0 +1,98 @@
+.NavBar {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  padding: 0 20px 0 5px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+}
+
+.NavBarImage {}
+
+.NavBar img {
+  width: 100px;
+  padding: 15px 10px 3px 10px;
+
+
+}
+
+.searchDiv {
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+}
+
+.searchInput {
+  padding: 9px 7px 9px 7px;
+  border: none;
+  outline: none;
+
+  width: 100%;
+
+}
+
+.iconn {
+  color: white;
+  background-color: orange;
+  padding: 6px;
+}
+
+/* .NavBar .icons{
+  color:aliceblue;
+
+} */
+
+.rightSideNave {
+  display: flex;
+  align-items: center;
+}
+
+.rightSideNave>a {
+  margin: 0 10px;
+color: aliceblue;
+text-decoration: none;
+}
+
+.rightSideNave p {
+  font-size: .8rem;
+}
+
+.rightSideNave a:last-child  {
+position: relative;
+padding-right: 5px;
+}
+.rightSideNave a:last-child span {
+  margin-left: 10px;
+  position: absolute;
+  top: -13px;
+  right: -15px;
+  font-weight: bold;
+  font-size: .8rem;
+width: 20px;
+height: 20px;
+  border-radius: 50%;
+  background-color:rgb(107, 117, 117) ;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+@media (max-width:500px){
+  .searchDiv{
+    display: none;
+  }
+  .NavBar img {
+    width: 75px;
+    padding: 15px 10px 3px 10px;
+  
+  
+  }
+  .NavBar{
+    justify-content: space-between;
+  }
+}
